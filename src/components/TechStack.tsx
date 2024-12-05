@@ -25,7 +25,7 @@ const TechStack = () => {
       ]
     },
     {
-      title: 'Backend & Tools',
+      title: 'Other Tools',
       items: [
         { name: 'Node.js', icon: SiNodedotjs, color: 'text-green-600' },
         { name: 'Git', icon: SiGit, color: 'text-red-500' },
@@ -57,7 +57,7 @@ const TechStack = () => {
                     className="flex flex-col items-center justify-center p-4 bg-gray-100 rounded-lg"
                   >
                     <tech.icon className={`text-4xl mb-2 ${tech.color}`} />
-                    <span className="text-sm text-gray-700">{tech.name}</span>
+                    <span className="text-sm text-gray-700 text-center">{tech.name}</span>
                   </div>
                 ))}
               </div>
