@@ -1,4 +1,3 @@
-import React from 'react';
 import { 
   SiJavascript, 
   SiTypescript, 
@@ -6,8 +5,6 @@ import {
   SiNextdotjs, 
   SiNodedotjs, 
   SiGit, 
-  SiHtml5, 
-  SiCss3, 
   SiDocker, 
   SiJest, 
   SiRedux, 

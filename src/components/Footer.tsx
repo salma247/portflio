@@ -1,9 +1,7 @@
-import React from 'react';
 import { 
   FaGithub, 
   FaLinkedinIn, 
   FaEnvelope, 
-  FaTwitter 
 } from 'react-icons/fa';
 
 const Footer = () => {

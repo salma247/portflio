@@ -12,10 +12,10 @@ export default function Navbar() {
     { name: 'Experience', href: '#experience' },
   ];
 
-  const smoothScroll = (e) => {
+  const smoothScroll = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const targetId = e.currentTarget.getAttribute('href');
-    const targetElement = document.querySelector(targetId);
+    const targetElement = document.querySelector(targetId as string);
     
     if (targetElement) {
       targetElement.scrollIntoView({
