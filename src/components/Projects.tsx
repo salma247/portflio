@@ -77,7 +77,7 @@ export default function Projects() {
       description:
         "A comprehensive web application built with React, utilizing Redux for state management and SCSS for styling.",
       technologies: ["React", "Redux", "SCSS"],
-      githubLink: "https://github.com/salma247/mealit",
+      githubLink: "https://github.com/mealit01/website",
       liveLink: "https://mealit01.github.io/website/#/",
     },
     {
